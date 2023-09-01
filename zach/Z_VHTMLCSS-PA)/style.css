@@ -1,0 +1,20 @@
+
+body{
+    background: linear-gradient(to right, #ffffff, #ffffff )
+}
+
+
+.symbol {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+   
+}
+
+
+.ptag {
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    max-width: 20em;
+}

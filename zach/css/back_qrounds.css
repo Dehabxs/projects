@@ -1,0 +1,26 @@
+
+/* zach vann
+HTML/CSS-PA09
+8/10/2023*/
+.garident_bg_animation {
+    margin: 0;
+    overflow: hidden;
+    /* change the two colors to change how it is animated*/
+    background: linear-gradient(-45deg, #FFD700, #FF6347, #4B0082, #00CED1);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+  }
+/* tad bit of animation */
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  

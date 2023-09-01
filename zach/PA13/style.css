@@ -1,0 +1,18 @@
+
+/* using display so they will hug eachother */
+#box{display: flex;
+}
+
+#v_bar{background-color: blue;
+    /* using width and height to set its dimensions */
+     width: 10%;
+      height: 25%;
+      /*  padding right to expand the background color */
+       padding-right: 10%;
+       /*  margin right to push content */
+        margin-right: 1%; }
+
+#content{ /* to make it hug eachother */
+    text-align: left;
+   
+     }

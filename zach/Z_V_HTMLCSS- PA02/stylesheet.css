@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+#dafy{
+    position: absolute;
+    right: .8%;
+    top: 0vh;
+}
+#container{
+background-color: 
+#443e44;
+position: absolute;
+top: 29vh;
+left: 0vw;
+padding: 10px;
+width: 97.8%;
+}
+h1{
+    color: rgb(0, 238, 255);
+    
+}
+#h11{
+    position: absolute;
+}
+#hype{
+    position: absolute;
+}
+p{
+    color: rgb(255, 0, 0);
+}
+#summary{
+    width: 50vh;
+    z-index: 1;
+}
+#cover{
+    position: absolute;
+    right: .8%;
+    top: 40vh;
+    z-index: 0;
+    
+}
+
+
+

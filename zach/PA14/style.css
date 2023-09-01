@@ -1,0 +1,81 @@
+
+
+
+/* setting the imadges */
+#sun, #set, #night{
+    width: 32% ;
+    min-height: 10%;
+    max-width: 55%;
+    margin-inline: .5%;
+    left: 0%;
+    border: 1px solid black;
+}
+/* making the text come closer */
+#pictures{
+    display: flex;
+    margin-inline: .5%;
+}
+/* making the top text bar */
+#text{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    background-color: darkgray;
+}
+/* creation of links */
+#under_text{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 2%;
+background-color: gray ;
+}
+/* one of the pictures were out of bounce although its fixed now 
+so this is kinda usless */
+body{
+    overflow-x: hidden;
+}
+/* creat the input feild */
+#input_feild{
+    display: flexbox;
+    position: relative; 
+    left: 38%;
+    top: 3%;
+    border: 1px solid black;
+    padding: 1%;
+    width: 25%;
+
+}
+/* increse the size of the submit btn */
+#select{
+    width: 100%;
+}
+
+/* adding space to btn*/
+#btn{
+    margin-top: 5%;
+}
+/* visitor count creation */
+#text_c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    position: relative;
+    top:0%;
+    right: -7%;
+
+
+}
+/* creation of the btn */
+#btnn{
+    top: 45%;
+    right: 15%;
+    position: relative;
+
+}

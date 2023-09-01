@@ -1,0 +1,9 @@
+#top_bar{
+    background-color: rgb(24, 51, 40);
+    position: absolute;
+
+    padding-left: .5%;
+    width: 100vw;
+    top: 0%;
+    left: 0%;
+}

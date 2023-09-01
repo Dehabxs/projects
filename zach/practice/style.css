@@ -1,0 +1,45 @@
+#top_bar{
+    background-color: #363636;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 1;
+}
+#top_bar_h{
+    right: 45%;
+    position: fixed;
+
+}
+#Top_bar_links{
+    position: relative;
+    top: 8Vh;
+    right: .5vw;
+    width: 100vw;
+    background-color: #ff0000;
+    word-spacing: 10;
+}
+
+#content{
+    position: relative;
+    top: 12%;
+
+}
+#web_layout, #units,#specIflcIty{
+    border: #ff0000;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#import, #Math_Functions{
+    border: #ff0000;
+    border-style: solid;
+    border-width: 1px;
+
+}
+#web_layout, #units,#specIflcIty,#import, #Math_Functions{
+    padding: 10;
+    margin: 20;
+}

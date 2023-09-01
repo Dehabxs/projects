@@ -1,0 +1,31 @@
+#clearfix {
+    clear: both;
+    display: table;
+    
+    width: 100%;
+  }
+  #float1,
+  #float2,
+  #clearfix,
+  #in1,
+  #in2,
+  #in3 {
+    border: 1px solid #ff0000;
+    background-color: gray;
+    margin: 1%;
+}
+#float1{
+    float: left;
+    width:55%
+}
+#float2{
+    float: right 10%;
+    width: 50%;
+}
+#x,#y,#z{
+    border: 1px solid #ff0000;
+    background-color: gray;
+    margin: 1%;
+    display: inline-block;
+    width: 30%;
+}
